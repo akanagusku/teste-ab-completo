@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="136" viewBox="0 0 152 136">
+    <defs>
+        <filter id="a" width="133.8%" height="138.3%" x="-16.9%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M36.167 42.008v8.167c0 .644-.523 1.167-1.167 1.167H21a1.167 1.167 0 0 1-1.167-1.167v-8.167h-1.441c-1.065 0-2.065-.709-2.172-1.766L12.842 6.675c-.118-1.17.886-2 2.027-2H41.13c1.14 0 2.144.829 2.028 2l-3.363 33.567c-.106 1.057-1.106 1.766-2.17 1.766h-1.458zm-14 0v7h11.666v-7H22.167zm-6.946-35l3.288 32.667h18.998L40.78 7.008H15.22zM31.6 23.333L32.543 14h-9.088l.924 9.333h7.222zm-9.44 1.282l-1.155-11.667a1.167 1.167 0 0 1 1.16-1.281h11.667c.691 0 1.23.596 1.161 1.283l-1.177 11.667a1.167 1.167 0 0 1-1.161 1.05h-9.333c-.6 0-1.102-.455-1.161-1.052zM24.5 35a1.167 1.167 0 0 1 0-2.333h7a1.167 1.167 0 1 1 0 2.333h-7z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="135" height="119" x=".5" y=".5" fill="#FFF" stroke="#C00" filter="url(#a)" rx="4" transform="translate(8 4)"/>
+        <use fill="#222" fill-rule="nonzero" transform="translate(48.504 20)" xlink:href="#b"/>
+        <text fill="#767676" font-family="SantanderText-Regular, Santander Text" font-size="16" transform="translate(8 4)">
+            <tspan x="27.736" y="98">Maquininha</tspan>
+        </text>
+    </g>
+</svg>

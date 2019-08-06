@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="136" viewBox="0 0 152 136">
+    <defs>
+        <filter id="a" width="133.8%" height="138.3%" x="-16.9%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M14.156 41.462L8.462 49h41.71a1.167 1.167 0 0 1 0 2.333H5.837a1.167 1.167 0 0 1-1.167-1.166V5.833a1.167 1.167 0 0 1 2.334 0v41.225l5.419-7.175a4.667 4.667 0 0 1 8.083-4.64l9.839-2.231a4.667 4.667 0 0 1 6.004-4.814l5.267-12.736a4.667 4.667 0 1 1 2.177.84l-5.43 13.13a4.667 4.667 0 1 1-7.263 5.8l-10.105 2.293a4.667 4.667 0 0 1-6.84 3.937zm2.177-1.795a2.333 2.333 0 1 0 0-4.667 2.333 2.333 0 0 0 0 4.667zM35 35a2.333 2.333 0 1 0 0-4.667A2.333 2.333 0 0 0 35 35zm9.333-21a2.333 2.333 0 1 0 0-4.667 2.333 2.333 0 0 0 0 4.667z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="135" height="119" x=".5" y=".5" fill="#FFF" stroke="#C00" filter="url(#a)" rx="4" transform="translate(8 4)"/>
+        <use fill="#222" fill-rule="nonzero" transform="translate(48.504 20)" xlink:href="#b"/>
+        <text fill="#767676" font-family="SantanderText-Regular, Santander Text" font-size="16" transform="translate(8 4)">
+            <tspan x="29.44" y="98">Gestão MEI</tspan>
+        </text>
+    </g>
+</svg>

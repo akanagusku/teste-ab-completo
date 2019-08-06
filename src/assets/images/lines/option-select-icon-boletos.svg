@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="136" viewBox="0 0 152 136">
+    <defs>
+        <filter id="a" width="133.8%" height="138.3%" x="-16.9%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M8.167 9.333h39.666a5.833 5.833 0 0 1 5.834 5.834v25.666a5.833 5.833 0 0 1-5.834 5.834H8.167a5.833 5.833 0 0 1-5.834-5.834V15.167a5.833 5.833 0 0 1 5.834-5.834zm0 2.334a3.5 3.5 0 0 0-3.5 3.5v25.666a3.5 3.5 0 0 0 3.5 3.5h39.666a3.5 3.5 0 0 0 3.5-3.5V15.167a3.5 3.5 0 0 0-3.5-3.5H8.167zm5.854 22.166a1.167 1.167 0 1 1-2.334 0v-14a1.167 1.167 0 0 1 2.334 0v14zM24.129 31.5a1.167 1.167 0 0 1-2.333 0V19.833a1.167 1.167 0 0 1 2.333 0V31.5zm10.108 0a1.167 1.167 0 0 1-2.333 0V19.833a1.167 1.167 0 1 1 2.333 0V31.5zm10.108 2.333a1.167 1.167 0 1 1-2.333 0v-14a1.167 1.167 0 0 1 2.333 0v14z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="136" height="120" fill="#FFF" fill-rule="nonzero" filter="url(#a)" rx="4" transform="translate(8 4)"/>
+        <use fill="#222" fill-rule="nonzero" transform="translate(48.504 20)" xlink:href="#b"/>
+        <text fill="#767676" font-family="SantanderText-Regular, Santander Text" font-size="16" transform="translate(8 4)">
+            <tspan x="20.28" y="98">Emitir Boletos</tspan>
+        </text>
+    </g>
+</svg>

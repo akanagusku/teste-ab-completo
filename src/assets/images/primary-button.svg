@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="301" height="64" viewBox="0 0 301 64">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="301" height="64" fill="#C00" rx="4"/>
+        <text fill="#FFF" font-family="SantanderText-Regular, Santander Text" font-size="20">
+            <tspan x="115.34" y="39">Próximo</tspan>
+        </text>
+    </g>
+</svg>

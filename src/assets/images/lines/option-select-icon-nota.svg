@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="136" viewBox="0 0 152 136">
+    <defs>
+        <filter id="a" width="133.8%" height="138.3%" x="-16.9%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M31.497 27.742a9.947 9.947 0 0 1-1.382-.4 12.186 12.186 0 0 1-1.145-.482 1.167 1.167 0 1 1 1.031-2.093c.185.09.517.237.916.383.312.115.612.207.886.27.26.061.485.092.656.092 1.673 0 2.463-.57 2.463-1.583 0-.453-.333-.855-1.05-1.258-.347-.195-1.442-.666-1.44-.664.119.06-1.134-.477-1.662-.768-1.444-.793-2.353-1.789-2.353-3.192 0-1.916 1.353-3.33 3.08-3.758v-1.456a1.167 1.167 0 0 1 2.333 0v1.41c.437.066.838.168 1.203.298.444.158.763.331.96.474a1.167 1.167 0 1 1-1.374 1.886 2.017 2.017 0 0 0-.37-.163c-.434-.154-.978-.25-1.64-.25-1.032 0-1.858.663-1.858 1.56 0 .316.37.722 1.143 1.147.404.222 1.606.737 1.59.729-.11-.056 1.052.443 1.531.713 1.375.772 2.24 1.818 2.24 3.292 0 2.069-1.351 3.399-3.425 3.793v1.445a1.167 1.167 0 0 1-2.333 0v-1.425zM15.154 51.333H10.5A5.833 5.833 0 0 1 4.667 45.5V31.505c0-.644.522-1.167 1.166-1.167H14V10.5a5.833 5.833 0 0 1 5.833-5.833H45.5a5.833 5.833 0 0 1 5.833 5.833v35a5.833 5.833 0 0 1-5.833 5.833H15.154zM14 49V32.672H7V45.5a3.5 3.5 0 0 0 3.5 3.5H14zm31.5 0a3.5 3.5 0 0 0 3.5-3.5v-35A3.5 3.5 0 0 0 45.5 7H19.833a3.5 3.5 0 0 0-3.5 3.5V49H45.5zM22.167 37.38a1.167 1.167 0 0 1 0-2.333h21a1.167 1.167 0 1 1 0 2.334h-21zm0 6.956a1.167 1.167 0 1 1 0-2.333h21a1.167 1.167 0 1 1 0 2.333h-21z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="135" height="119" x=".5" y=".5" fill="#FFF" stroke="#C00" filter="url(#a)" rx="4" transform="translate(8 4)"/>
+        <use fill="#222" fill-rule="nonzero" transform="translate(48.504 20)" xlink:href="#b"/>
+        <text fill="#767676" font-family="SantanderText-Regular, Santander Text" font-size="16" transform="translate(8 4)">
+            <tspan x="30.92" y="98">Nota Fiscal</tspan>
+        </text>
+    </g>
+</svg>

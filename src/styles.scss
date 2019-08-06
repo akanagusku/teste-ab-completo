@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face { 
+    font-family: SantanderText; 
+    src: url('src/assets/fonts/SantanderText-Regular.otf'); 
+}
+@font-face { 
+    font-family: SantanderHeadline-Bold; 
+    src: url('src/assets/fonts/SantanderHeadline-Bold.otf'); 
+} 
+body {
+    margin: 0;
+    font-family: SantanderText;
+}

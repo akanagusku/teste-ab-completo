@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="136" viewBox="0 0 152 136">
+    <defs>
+        <filter id="a" width="133.8%" height="138.3%" x="-16.9%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M19.409 37.572l-4.424 12.4 7.765-4.329a1.167 1.167 0 0 1 1.478.29l3.777 4.709 3.825-4.715c.358-.44.98-.56 1.475-.283l7.736 4.32-4.448-12.393A18.586 18.586 0 0 1 28 39.662c-3.098 0-6.02-.754-8.591-2.09zm-2.039-1.23c-4.857-3.37-8.037-8.987-8.037-15.346 0-10.31 8.358-18.667 18.667-18.667 10.31 0 18.667 8.357 18.667 18.667 0 6.359-3.18 11.975-8.036 15.346l5.658 15.764c.365 1.015-.725 1.938-1.667 1.413l-9.598-5.36-4.118 5.076a1.167 1.167 0 0 1-1.816-.005l-4.065-5.068-9.613 5.357c-.94.524-2.028-.397-1.667-1.411l5.625-15.766zM28 37.33c9.02 0 16.333-7.313 16.333-16.333S37.021 4.662 28 4.662c-9.02 0-16.333 7.313-16.333 16.334 0 9.02 7.312 16.333 16.333 16.333zm0-3.5c-7.088 0-12.833-5.746-12.833-12.833 0-7.088 5.745-12.834 12.833-12.834s12.833 5.746 12.833 12.834c0 7.087-5.745 12.833-12.833 12.833zm0-2.333c5.799 0 10.5-4.701 10.5-10.5 0-5.8-4.701-10.5-10.5-10.5s-10.5 4.7-10.5 10.5c0 5.799 4.701 10.5 10.5 10.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="136" height="120" fill="#FFF" fill-rule="nonzero" filter="url(#a)" rx="4" transform="translate(8 4)"/>
+        <use fill="#222" fill-rule="nonzero" transform="translate(48.504 20)" xlink:href="#b"/>
+        <text fill="#767676" font-family="SantanderText-Regular, Santander Text" font-size="16" transform="translate(8 4)">
+            <tspan x="22" y="98">Aprendizados</tspan>
+        </text>
+    </g>
+</svg>

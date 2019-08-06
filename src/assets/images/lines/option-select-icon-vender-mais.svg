@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="136" viewBox="0 0 152 136">
+    <defs>
+        <filter id="a" width="133.8%" height="138.3%" x="-16.9%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0 0.133333333 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M42.004 18.27v-1.554c0-.644.522-1.166 1.167-1.166h7a3.5 3.5 0 0 1 3.5 3.5v16.333a3.5 3.5 0 0 1-3.5 3.5h-7a1.167 1.167 0 0 1-1.167-1.167v-1.659H36.92l-8.237 6.146a5.492 5.492 0 0 1-7.04-.434l-6.328-5.215c-.242-.247-.421-.326-.611-.326H5.358c-1.669 0-3.029-1.34-3.029-3V21.815c0-1.662 1.36-3.001 3.03-3.001h7.968c.191-.15.398-.285.62-.404l7.471-4.682a8.746 8.746 0 0 1 6.087-.771l12.698 5.312h1.8zm0 2.334h-2.035l-.452-.091-12.732-5.344a7.859 7.859 0 0 0-1.3-.112 6.363 6.363 0 0 0-2.915.698l-7.45 4.67c-1.07.583-1.426 1.794-.875 2.755.563.982 1.859 1.34 2.883.783l3.905-2.591a3.073 3.073 0 0 1 3.662.261l11.923 12.09h5.386v-13.12zm-30.215.544h-6.43a.682.682 0 0 0-.696.668v11.411c0 .365.307.667.695.667h9.346c.842 0 1.646.353 2.214.971l6.272 5.16c1.162 1.103 2.877 1.21 4.102.304l7.238-5.4-11.432-11.597c-.171-.144-.53-.171-.797-.002l-3.972 2.63c-2.219 1.212-4.91.469-6.108-1.619a4.247 4.247 0 0 1-.432-3.193zm32.548-3.265V36.55h5.834c.644 0 1.166-.523 1.166-1.167V19.05c0-.645-.522-1.167-1.166-1.167h-5.834z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="135" height="119" x=".5" y=".5" fill="#FFF" stroke="#C00" filter="url(#a)" rx="4" transform="translate(8 4)"/>
+        <use fill="#222" fill-rule="nonzero" transform="translate(48.504 20)" xlink:href="#b"/>
+        <text fill="#767676" font-family="SantanderText-Regular, Santander Text" font-size="16" transform="translate(8 4)">
+            <tspan x="26.04" y="98">Vender mais</tspan>
+        </text>
+    </g>
+</svg>

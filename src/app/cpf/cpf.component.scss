@@ -1,0 +1,20 @@
+.wrapper {
+    margin-bottom: 35px;
+}
+.label {
+    
+}
+.input-wrapper input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #767676;
+    width: 70%;
+    color: #767676;
+    font-size: 16px;
+    outline: none;
+    &::placeholder {
+        color: #767676;
+        font-size: 16px;
+    }
+}
