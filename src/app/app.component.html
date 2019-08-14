@@ -31,8 +31,8 @@
       <ng-template appComponentHost></ng-template>
     </div>
     <div class="step-button">
-      <button type="button" *ngIf="currentStep !== 0" class="back-button" (click)="previousStep($event)">Anterior</button>
-      <button type="button" class="next-button" (click)="nextStep($event)">Próximo</button>
+      <button type="button" *ngIf="currentStep !== 0" class="back-button" (click)="previousStep()">Anterior</button>
+      <button type="button" class="next-button" (click)="nextStep()">Próximo</button>
     </div>
   </div>
 </div>
